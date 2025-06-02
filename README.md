@@ -60,7 +60,7 @@ source venv/bin/activate # Mac/Linux
 venv\Scripts\activate # Windows
 
 ### 2. Install Dependencies
-enter backend/task_api directory
+cd backend/task_api directory
 pip install -r requirements.txt
 
 ### 3. Database Configuration
