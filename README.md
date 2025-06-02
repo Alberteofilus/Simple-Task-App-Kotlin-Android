@@ -40,11 +40,35 @@ Simple Task App is a basic Android application that fetches and displays a list 
 
 ## How to Run
 
-### Backend
+# 📝 Task API - Flask Backend
 
-1. Install dependencies: `pip install -r requirements.txt`
-2. Set up MySQL database
-3. Run the server: `python app.py`
+A simple RESTful API for task management, built with Flask and MySQL using SQLAlchemy ORM.
+
+## 🚀 Features
+
+- Add new task
+- Get all tasks or by category
+- Update task details
+- Change task status
+- Delete task
+
+## 🛠️ Installation
+
+### 1. Create Virtual Environment & Activate
+python -m venv venv
+source venv/bin/activate # Mac/Linux
+venv\Scripts\activate # Windows
+
+### 2. Install Dependencies
+enter backend/task_api directory
+pip install -r requirements.txt
+
+### 3. Database Configuration
+Turn on XAMPP
+Create a database named "taskdb" or import db_create.sql
+
+### 4. Run the Application
+python app.py`
 
 ### Android
 
