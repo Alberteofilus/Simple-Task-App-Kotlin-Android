@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Task App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/primary_text"/>
+
+    <Button
+        android:id="@+id/btnAllTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Tasks (0)"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/primary_color"/>
+
+    <Button
+        android:id="@+id/btnImportant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Important (0)"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/important_color"/>
+
+    <Button
+        android:id="@+id/btnUrgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urgent (0)"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/urgent_color"/>
+
+    <Button
+        android:id="@+id/btnRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regular (0)"
+        android:backgroundTint="@color/regular_color"/>
+</LinearLayout>

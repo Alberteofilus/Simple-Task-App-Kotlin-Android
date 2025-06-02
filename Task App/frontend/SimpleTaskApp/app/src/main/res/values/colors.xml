@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FFFFED</color>
+    <color name="important_color">#FA8072</color>
+    <color name="urgent_color">#FF6D00</color>
+    <color name="regular_color">#98FB98</color>
+    <color name="background">#FAFAFA</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="task_active">#FFFFFF</color>
+    <color name="task_done">#E0E0E0</color>
+</resources>

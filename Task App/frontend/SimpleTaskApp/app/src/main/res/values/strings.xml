@@ -1,0 +1,18 @@
+<resources>
+    <!-- Task related strings -->
+    <string name="category_format">Category: %s</string>
+    <string name="updated_format">Updated: %s</string>
+    <string name="mark_done">Mark Done</string>
+    <string name="done">Done</string>
+
+    <!-- Messages -->
+    <string name="task_marked_done">Task marked as done</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="task_completed_cant_edit">Completed tasks cannot be edited</string>
+    <string name="task_completed_cant_delete">Completed tasks cannot be deleted</string>
+    <string name="update_failed">Failed to update task</string>
+    <string name="delete_failed">Failed to delete task</string>
+    <string name="error">Error</string>
+    <string name="app_name">Simple Task App</string>
+
+</resources>
